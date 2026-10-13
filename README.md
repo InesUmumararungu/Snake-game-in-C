@@ -2,15 +2,15 @@
 This is a school assignment where it was required to create a classical snake game using C.
 reminder : The gameplay of the snake game is simple. There are three game objects:
 
-    Snake: The snake automatically moves into given direction till we change it. It has a mouth and tail.
-    Fruit: The object that snake has to eat to grow.
-    Walls: They are the boundary of the game area.
+Snake: The snake automatically moves into given direction till we change it. It has a mouth and tail.
+Fruit: The object that snake has to eat to grow.
+Walls: They are the boundary of the game area.
 
 These objects work according to the game rules which are as follows:
 
-    The snake moves at a constant speed in one direction, and we can change its direction using the movement keys. However, the snake can only turn 90° at a time.
-    The objective is to eat as many fruits as possible, which will make the snake to grow in length.
-    The game ends if the snake collides with the boundary or its own body.
+The snake moves at a constant speed in one direction, and we can change its direction using the movement keys. However, the snake can only turn 90° at a time.
+The objective is to eat as many fruits as possible, which will make the snake to grow in length.
+The game ends if the snake collides with the boundary or its own body.
 
 ## Algorithm
 
@@ -44,6 +44,6 @@ the flowchart above illustrates the algorithm implemented
 ## Build & Run on (Linux/Fedora)
 
 ``bash
-sudo dnf install ncurses-devel
-gcc snake3.c -o snake3 -lncurses
-./snake3
+    sudo dnf install ncurses-devel
+    gcc snake3.c -o snake3 -lncurses
+    ./snake3
