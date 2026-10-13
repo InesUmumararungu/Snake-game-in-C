@@ -1,0 +1,14 @@
+# Compiled binaries
+snake
+snake2
+snake3
+snake_sdl
+
+# Save files
+savegame.txt
+
+# Editor files
+.vscode/
+
+# OS files
+.DS_Store
